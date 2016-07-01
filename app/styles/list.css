@@ -1,0 +1,44 @@
+.context {
+  background: url('../images/list/list-bg.png') 50% no-repeat;
+  background-size: 70%;
+}
+.context ul {
+  margin-top: 94px;
+  margin-bottom: 140px;
+}
+.context li {
+  width: 50%;
+  float: left;
+  margin-bottom: 110px;
+}
+.pic {
+  width: 40.83%;
+  margin: 0 auto;
+}
+.pic2 {
+  width: 43.777%;
+}
+.pic3 {
+  width: 40.83%;
+}
+.pic4 {
+  width: 51.777%;
+}
+.name {
+  font-size: 48px;
+  color: #494949;
+  margin-top: 60px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .name {
+    font-size: 36px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .name {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+}

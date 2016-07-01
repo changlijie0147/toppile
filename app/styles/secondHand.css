@@ -1,0 +1,42 @@
+.title {
+  width: 33.3333%;
+  margin: 85px 0 95px 0;
+}
+.context {
+  margin-bottom: 130px;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.context ul li {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.context ul li .pic {
+  width: 37.5%;
+  float: left;
+}
+
+.introduce {
+  float: left;
+  margin-left: 4%;
+  margin-top: 80px;
+}
+.introduce p {
+  margin: 0;
+  font-family: "DIN Condensed", "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
+  font-size: 24px;
+  color: #333238;
+}
+
+@media (max-width: 991px) {
+  .introduce {
+    margin-top: 40px;
+  }
+}
+

@@ -1,0 +1,29 @@
+.title {
+  width: 25%;
+  margin: 135px auto;
+}
+
+.about-btn {
+  display: block;
+  width: 20.66667%;
+  margin: 60px auto 100px;
+}
+
+.profile, .mission {
+  margin: 0;
+  font-size: 48px;
+  color: #000;
+  font-family: "DIN Condensed", "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
+}
+
+.profile-text,.mission-text {
+  margin: 30px 0 100px 0;
+  font-size: 18px;
+  color: #000;
+  text-align: justify;
+  font-family: "Helvetica", "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
+}
+.context {
+  background: url("../images/about/about-bg.png") 50% no-repeat;
+  background-size: 80%;
+}

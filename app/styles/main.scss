@@ -1,0 +1,190 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.full_width {
+  width: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  width: 100%;
+  height: 150px;
+  background-color: #333238;
+}
+
+.nav .container {
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.menu {
+  width: 9%;
+  height: 35px;
+  position: absolute;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.text-menu {
+  float: right;
+  width: 56.36%;
+  margin-top: 8px;
+}
+
+.icon-menu {
+  display: block;
+  width: 31%;
+  height: 29px;
+  float: left;
+  transition: all .5s;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto auto;
+  width: 23.08%;
+  height: 64px;
+}
+
+.menu-extend {
+  width: 110.8%;
+  height: 132px;
+  position: absolute;
+  background-color: #2C2B2F;
+  margin-left: -5.4%;
+  top: 140px;
+  z-index: 5;
+  box-shadow: 0 0 9px #000000;
+  display: none;
+
+
+  .stair-menu {
+    width: 90%;
+    height: 32px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 5%;
+  }
+  .stair-menu li {
+    height: 100%;
+    float: left;
+    margin-right: 85px;
+  }
+  .stair-menu li:last-child {
+    margin-right: 0;
+  }
+  .stair-menu li a {
+    font-family: "DIN Condensed", "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
+    text-decoration: none;
+    color: #898691;
+    font-size: 28px;
+    border-bottom: 3px solid #2C2B2F;
+    cursor: pointer;
+  }
+  .stair-menu li a:hover {
+    color: #FF8232;
+    border-bottom: 3px solid #FF8232;
+  }
+
+  .secondary-menu {
+    height: 64px;
+    width: 100%;
+    background-color: #494949;
+
+    ul {
+      width: 100%;
+      height: 100%;
+      padding-top: 20px;
+      padding-left: 106px;
+    }
+
+    ul li {
+      float: left;
+      margin-right: 60px;
+
+      a {
+        text-decoration: none;
+        color: #ABABAB;
+        font-size: 20px;
+        font-family: "DIN Condensed", "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
+      }
+      a:hover {
+        color: #fff;
+      }
+    }
+
+    ul li:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+  .text-menu {
+    margin-top: 3px;
+  }
+  .menu-extend {
+    top: 120px;
+    .stair-menu li {
+      margin-right: 60px;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+  .text-menu {
+    margin-top: 2px;
+  }
+  .menu {
+    margin-top: 60px;
+  }
+  .menu-extend {
+    top: 105px;
+    .stair-menu li {
+      margin-right: 50px;
+    }
+    .stair-menu li a {
+      font-size: 24px;
+    }
+  }
+}

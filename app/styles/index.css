@@ -1,0 +1,75 @@
+body {
+  background-color: #333238;
+}
+.bar1, .bar2, .bar3 {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bar2 .bar2-left {
+  float: left;
+  width: 60.8%;
+  position: relative;
+}
+
+.bar2 .bar2-right {
+  float: right;
+  width: 37.08%;
+  position: relative;
+}
+
+.bar3-left, .bar3-center, .bar3-right {
+  float: left;
+  width: 25.5%;
+  margin-right: 2%;
+  position: relative;
+}
+
+.bar3 .bar3-right {
+  width: 45%;
+  margin-right: 0;
+}
+
+.pro-btn {
+  position: absolute;
+}
+.pro-btn1 {
+  width: 11.25%;
+  top: 54%;
+  left: 3.5%;
+}
+.pro-btn2 {
+  width: 18.5%;
+  top: 50%;
+  left: 7.5%;
+}
+.pro-btn3 {
+  width: 30.33%;
+  top: 44%;
+  left: 5.5%;
+}
+.pro-btn4 {
+  width: 35.94%;
+  top: 79%;
+  left: 33%;
+}
+.pro-btn5 {
+  width: 35.94%;
+  top: 79%;
+  left: 33%;
+}
+.pro-btn6 {
+  width: 24.62%;
+  top: 49%;
+  left: 5.5%;
+}
+
+
+.footer {
+  width: 100%;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 90px;
+  font-family: "Helvetica", "SF UI Display", ".PingFang SC", "PingFang SC", "Neue Haas Grotesk Text Pro", "Arial Nova", "Segoe UI", "Microsoft YaHei", "Microsoft JhengHei", "Helvetica Neue", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "Hiragino Sans GB", sans-serif;
+}
